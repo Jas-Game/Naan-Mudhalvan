@@ -1,0 +1,18 @@
+stock-price-prediction/
+│
+├── data/
+│   └── stock_data.csv              # Historical stock data (or use yfinance)
+│
+├── model/
+│   └── lstm_model.h5               # Saved trained model
+│
+├── notebooks/
+│   └── stock_prediction.ipynb     # Main analysis and model training notebook
+│
+├── charts/
+│   └── train_val_loss.png         # Chart of training vs. validation loss
+│   └── predicted_vs_actual.png    # Chart of actual vs. predicted stock prices
+│
+├── requirements.txt               # List of dependencies
+├── README.md                      # Project overview
+└── train_model.py                 # Script to train and evaluate the model
